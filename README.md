@@ -22,11 +22,16 @@ To download the code run:
 ```
 git clone git://github.com/simaaron/kaggle-Rain.git
 ```
-This includes an empty `data` folder.
+Create an empty data folder
+
+```
+cd kaggle-Rain
+mkdir data
+```
 
 
 ### Download the training and test data
-The training and test data can be downloaded from the Kaggle competition webpage at this [link](https://www.kaggle.com/c/how-much-did-it-rain-ii/data). The two extracted files `train.csv` and `test.csv` should be placed in the `data` folder (see above). 
+The training and test data can be downloaded from the Kaggle competition webpage at this [link](https://www.kaggle.com/c/how-much-did-it-rain-ii/data). The two extracted files `train.csv` and `test.csv` should be placed in the `data` folder. 
 
 Note: the benchmark sample solution and code provided by Kaggle are not required.
 
